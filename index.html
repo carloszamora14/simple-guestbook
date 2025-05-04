@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guest Book</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <h1>Guest book</h1>
+
+    <form id="messageForm">
+      <input type="text" id="username" placeholder="Your name" required />
+      <textarea id="messageBody" rows="4" placeholder="Your message" required></textarea>
+      <button type="submit">Post Message</button>
+    </form>
+
+    <div id="messagesContainer"></div>
+
+    <script src="./main.js"></script>
+  </main>
+</body>
+
+</html>
